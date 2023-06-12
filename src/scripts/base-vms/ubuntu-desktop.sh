@@ -35,3 +35,5 @@ sudo apt autoremove -y
 echo -n > /etc/machine-id
 rm /var/lib/dbus/machine-id
 ln -s /etc/machine-id /var/lib/dbus/machine-id
+# Some cleanup
+rm -rf ./google-chrome-stable_current_amd64.deb ./chrome-remote-desktop_current_amd64.deb $0
