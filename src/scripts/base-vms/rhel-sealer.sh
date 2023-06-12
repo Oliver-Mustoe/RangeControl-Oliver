@@ -47,7 +47,7 @@
  
  #misc cleanup
  yum clean all
- 
+ rm $0
  #
  # 11. Shutdown the VM. Poweron required to scan new HW addresses.
  poweroff
